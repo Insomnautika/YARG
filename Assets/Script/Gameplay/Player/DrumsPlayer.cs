@@ -27,6 +27,12 @@ namespace YARG.Gameplay.Player
         [SerializeField]
         private KickFret _kickFret;
 
+        [SerializeField]
+        private GameObject _trackLane;
+
+        [SerializeField]
+        private Texture _laneLinesTexture;
+
         public override BaseStats Stats => Engine?.EngineStats;
 
         public override float[] StarMultiplierThresholds { get; } =
@@ -158,6 +164,13 @@ namespace YARG.Gameplay.Player
                 colors.GetParticleColor(0).ToUnityColor(),
                 colors.GetFretColor(0).ToUnityColor(),
                 colors.GetFretInnerColor(0).ToUnityColor());
+
+            // Set Lane Overlay
+            if (!_fiveLaneMode)
+            {
+                // Set the texture.
+                _trackLane.GetComponent<Renderer>().material.SetTexture("_Layer_5_Texture", _laneLinesTexture);
+            }
         }
 
         protected override void UpdateVisuals(double songTime)

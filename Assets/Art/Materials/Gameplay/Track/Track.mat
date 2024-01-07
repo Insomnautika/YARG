@@ -62,6 +62,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 3a7b5e0f1167007468ed04ef880893ce, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Layer_1_Gradient_Mask:
+        m_Texture: {fileID: 2800000, guid: 5f9116b7cd998c4429d8f99da3682c4d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Layer_2_Texture:
         m_Texture: {fileID: 2800000, guid: 98b8b19da466ee346b67113ba7cd79e9, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -72,6 +76,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _Layer_4_Texture:
         m_Texture: {fileID: 2800000, guid: e349c5c40c8fa2f4d97e8c7fcfa96c47, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer_5_Texture:
+        m_Texture: {fileID: 2800000, guid: 54a34104d0c02df4f9606a9bf17e87de, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -137,6 +145,8 @@ Material:
     - _Layer_3_Wavy_Amount: 0
     - _Layer_4_Parallax: 1
     - _Layer_4_Wavy_Amount: 0.01
+    - _Layer_5_Parallax: 1
+    - _Layer_5_Wavy_Amount: 0
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
@@ -163,8 +173,9 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Layer_1_Color: {r: 0.058823504, g: 0.058823504, b: 0.058823504, a: 1}
     - _Layer_2_Color: {r: 0.29411766, g: 0.29411766, b: 0.29411766, a: 0.1490196}
-    - _Layer_3_Color: {r: 1, g: 1, b: 1, a: 0}
+    - _Layer_3_Color: {r: 1, g: 1, b: 1, a: 1}
     - _Layer_4_Color: {r: 0.3301887, g: 0.3301887, b: 0.3301887, a: 1}
+    - _Layer_5_Color: {r: 1, g: 1, b: 1, a: 0.19607843}
     - _Solo_Color: {r: 0, g: 0.7058823, b: 1, a: 0.019607844}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _Starpower_Color: {r: 1, g: 0.59607846, b: 0, a: 1}

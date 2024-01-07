@@ -45,6 +45,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _GradientMask:
+        m_Texture: {fileID: 2800000, guid: 0ec22dad939724d4491cd40ce6d62dc0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: d31344ed2a49e7b42b82995b2978d6c4, type: 3}
         m_Scale: {x: 1, y: 1}
