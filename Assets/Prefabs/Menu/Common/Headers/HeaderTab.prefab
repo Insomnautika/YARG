@@ -97,6 +97,8 @@ MonoBehaviour:
   _selectedVisual: {fileID: 5269799902448377405}
   _displayName: {fileID: 7544691458509375549}
   _sprite: {fileID: 3882274174812725947}
+  _buttonBackground: {fileID: 5016379302410407148}
+  _buttonHoveredColor: {r: 1, g: 1, b: 1, a: 0.007843138}
 --- !u!114 &8978731298187055998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -335,7 +337,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3751015113102402083
 RectTransform:
   m_ObjectHideFlags: 0

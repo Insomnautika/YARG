@@ -1,9 +1,10 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.Localization.Components;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using YARG.Core.Input;
 using YARG.Helpers;
