@@ -386,6 +386,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 7598390404892836460}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6436616532977195986 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3468215309777557950, guid: 5800c42510b55c549be95ec3ecd75e1c,
+    type: 3}
+  m_PrefabInstance: {fileID: 7598390404892836460}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &7487907470461173196 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1051735628184240032, guid: 5800c42510b55c549be95ec3ecd75e1c,
@@ -430,6 +436,8 @@ MonoBehaviour:
   _fiveLaneMode: 0
   _fretArray: {fileID: 7353099902729507025}
   _kickFret: {fileID: 2592466018757088406}
+  _trackLane: {fileID: 6436616532977195986}
+  _laneLinesTexture: {fileID: 2800000, guid: 8c653e771cf9e034cb9a28ec70bfcdbd, type: 3}
 --- !u!114 &7686426392671820263 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 277336160789584779, guid: 5800c42510b55c549be95ec3ecd75e1c,
